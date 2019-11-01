@@ -1,0 +1,20 @@
+<h1>India T20I squad!</h1>
+
+<div class="row">
+    <div class="column1">
+        <ul *ngFor="let p of players">
+            <img src={{p.impath}} alt="img" style="width:150px; height:185px">
+        </ul>
+    </div>
+
+    <div class="column2">
+        <ul *ngFor="let p of players">
+           <h3>{{p.name}}</h3>
+           <p><B>Age:</B>{{p.age}}<br><br>
+            <B>Role:</B>{{p.role}}<br><br>
+            <B>Batting:</B>{{p.batting}}<br><br>
+            <B>Bowling:</B>{{p.bowling}}<br><br></p>
+        </ul>
+    </div>
+    
+</div>
