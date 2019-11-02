@@ -1,0 +1,19 @@
+<h1>Batting Scores</h1>
+<button (click)="TopScores()">TopScores</button>
+
+<br><br>
+<button (click)="LeastScores()">LeastScores </button>
+<div class="one">
+    <ul *ngFor="let p of play">
+        <li>{{p.name}}</li>
+        <li>{{p.mat}}</li>
+        <li>{{p.scr}}</li>
+    </ul>
+</div>
+<div class="two">
+    <ul *ngFor="let p of play1">
+        <li>{{p.name}}</li>
+        <li>{{p.mat}}</li>
+        <li>{{p.scr}}</li>
+    </ul>
+</div>
